@@ -1,13 +1,13 @@
 /* FONTS */
 @font-face {
   font-family: 'Arcade Gamer';
-  src: url('src/fonts/Arcade Gamer.otf');
+  src: url('/fonts/Arcade Gamer.otf');
 
 }
 
 @font-face {
   font-family: 'retganon';
-  src: url('src/fonts/retganon.ttf');
+  src: url('/fonts/retganon.ttf');
 }
 
 #root {
@@ -24,7 +24,7 @@ body{
 
 /* ABSOLUTE COMPONENTS */
 .floor{
-  background-image: url("src/assets/floor.png");
+  background-image: url("/assets/floor.png");
   background-repeat: repeat-x;
   background-size: 600px 100%;
   position:absolute;

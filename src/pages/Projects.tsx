@@ -1,16 +1,13 @@
-import "../css/Projects.css"
+// import "/css/Projects.css";
 
-function Projects(){
+function Projects() {
   return (
-    <div>
-        <div className="card projects-card">
-            <div className="header-text">Projects</div>
-        </div>
-        <div className="icon-container">
-            
-        </div>
+    <div >
+      <div className="card projects-card">
+        <div className="header-text">Projects</div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Projects
+export default Projects;
