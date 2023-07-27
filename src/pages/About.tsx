@@ -1,5 +1,6 @@
 import "../css/About.css"
 import { Link } from 'react-router-dom';
+import Sketch from "../components/Sketch";
 
 function About() {
   return (
@@ -15,9 +16,7 @@ function About() {
             </div>
         </div>
         <div>
-          <div className="card">
-            <p> text in here</p>
-          </div>
+          <Sketch/>
           <Link to="/"><button className='btn contact-btn'>Go back</button></Link>
         </div>
     </div>
