@@ -1,0 +1,17 @@
+.pixel{
+    background-color: black;
+    border: 1px solid white;
+    width: 10%;
+    height: 20%;
+  }
+
+.pixel:hover{
+    background-color:white;
+}
+
+.pixel-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40vw;
+    height: 20vw;
+}
