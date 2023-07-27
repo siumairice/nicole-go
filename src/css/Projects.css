@@ -1,0 +1,8 @@
+.projects-card{
+    padding:3rem;
+    width:85vw;
+    transform:translate(-50%, 0);
+    position:absolute;
+    top: 10vh;
+    left:50vw;
+}
