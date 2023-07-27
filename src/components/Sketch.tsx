@@ -1,32 +1,41 @@
 // import mat
-import '../css/Sketch.css'
+// import "/css/Sketch.css";
 
-function handleClick(){
-    this.addClass('color-me')
+import { useState } from "react";
+
+
+
+// function ColourPick(colour:string){
+//     return (
+//       <div className="pixel" style={{backgroundColor:colour}} onClick={setPixelColour(colour)}></div>
+//     )
+// }
+
+function Pixel(pixelID: string) {
+    const [pixelColour, setPixelColour] = useState("black");
+    function handleDivClick(){
+        setPixelColour("white");
+    }
+
+  
+  return <div style={{backgroundColor: pixelColour}}
+            className="pixel" id={pixelID} 
+            onClick={handleDivClick}>
+        </div>;
 }
 
-function Pixel() {
-    return (
-        <div className='pixel' 
-      onClick={handleClick}></div>
-    )
-}
-
-
-const rows:int = 5
-const columns:int = 9
-
+const rows: number = 10;
+const columns: number = 18;
 
 function Sketch() {
-    const BOARD:any = []
-    for(let i=0; i<rows*columns; i++){
-        BOARD.push(Pixel())
-        console.log(i)
-    }  
+  const BOARD: any = [];
+  for (let i = 0; i < rows * columns; i++) {
+    BOARD.push(Pixel(i.toString()));
+    console.log(i);
+  }
 
-    return (
-        <div className='pixel-container'>{BOARD}</div>
-    )
+  return <div className="pixel-container">{BOARD}</div>;
 }
+export default Sketch;
 
-export default Sketch
+
