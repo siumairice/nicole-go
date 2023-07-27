@@ -1,0 +1,40 @@
+.container{
+    width: 90vw;
+    height: 75vh;
+    transform: translate(-50%, -50%);
+    position:absolute;
+    left: 50vw;
+    top: 50vh;
+    display: flex;
+    gap: 4rem;
+}
+
+#about-left{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+#list-card{
+    padding:0rem 3rem;
+    min-width:35vw;
+}
+
+li{
+    font-family: 'retganon';
+    color:aliceblue;
+    font-size: 4rem;
+}
+
+/*
+
+  
+
+
+  .subheader{
+    text-align: center;
+
+  }
+
+
+ */
