@@ -1,15 +1,4 @@
-// import mat
-// import "/css/Sketch.css";
-
 import { useState } from "react";
-
-
-
-// function ColourPick(colour:string){
-//     return (
-//       <div className="pixel" style={{backgroundColor:colour}} onClick={setPixelColour(colour)}></div>
-//     )
-// }
 
 function Pixel(pixelID: string) {
     const [pixelColour, setPixelColour] = useState("black");

@@ -686,14 +686,6 @@ electron-to-chromium@^1.4.431:
   version "1.4.468"
   resolved "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.468.tgz"
   integrity sha512-6M1qyhaJOt7rQtNti1lBA0GwclPH+oKCmsra/hkcWs5INLxfXXD/dtdnaKUYQu/pjOBP/8Osoe4mAcNvvzoFag==
-<<<<<<< HEAD
-
-email-addresses@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.npmjs.org/email-addresses/-/email-addresses-5.0.0.tgz"
-  integrity sha512-4OIPYlA6JXqtVn8zpHpGiI7vE6EQOAg16aGnDMIAlZVinnoZ8208tW1hAbjWydgN/4PLTT9q+O1K6AH/vALJGw==
-=======
->>>>>>> 802c5f9 (add more pages)
 
 email-addresses@^5.0.0:
   version "5.0.0"
@@ -1584,7 +1576,7 @@ type-fest@^0.20.2:
   resolved "https://registry.npmjs.org/type-fest/-/type-fest-0.20.2.tgz"
   integrity sha512-Ne+eE4r0/iWnpAxD852z3A+N0Bt5RN//NjJwRd2VFHEmrywxf5vsZlh4R6lixl6B+wz/8d+maTSAkN1FIkI3LQ==
 
-typescript@^5.0.2, typescript@>=4.2.0:
+typescript@^5.1.6, typescript@>=4.2.0:
   version "5.1.6"
   resolved "https://registry.npmjs.org/typescript/-/typescript-5.1.6.tgz"
   integrity sha512-zaWCozRZ6DLEWAWFrVDz1H6FVXzUSfTy5FUMWsQlU8Ym5JP9eO4xkTIROFCQvhQf61z6O/G6ugw3SgAnvvm+HA==

@@ -1,5 +1,3 @@
-// import "/css/Projects.css";
-
 function Projects() {
   return (
     <div >
