@@ -1,0 +1,67 @@
+/* CARD */
+.card{
+    background-color: rgba(240, 248, 255, 0);
+    border: 1px solid white;
+    border-radius:1.5rem;
+}
+
+.home-card{
+    width: 60vw;
+    height: 50vh;
+    transform: translate(-50%, -50%);
+    position:absolute;
+    left: 50vw;
+    top: 50vh;
+    padding: 2rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* NICOLE GO TEXT */
+.header-text{
+    color:#ff63d8;
+    text-shadow: .3rem .3rem #21ee80;
+}
+
+.center-text{
+    text-align: center;
+}
+
+/* BUTTONS */
+.button-group{
+    display:flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.btn{
+    color:white;
+    font-family:'retganon';
+    font-size: 2rem;
+    padding:.7rem 1.2rem;
+    border:none;
+    border-radius: 1rem;
+}
+
+.btn:hover{
+    background-color:rgb(255, 255, 255);
+    color:#5c5df6;
+}
+
+.start-btn{
+    background-color: #1bda8e;
+}
+
+.projects-btn{
+    background-color: #5c5df6;
+}
+
+.contact-btn{
+    background-color: #ff63d8;
+}
+
+
+
+
