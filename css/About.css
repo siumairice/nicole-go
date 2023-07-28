@@ -25,3 +25,25 @@ li{
     color:aliceblue;
     font-size: 4rem;
 }
+
+.colour-container{
+    display:flex;
+    width: 40vw;
+    gap: 2rem;
+    height: 40vh;
+}
+
+.colour-container > .pixel{
+    margin-top: 3rem;
+    width: 5rem;
+    height: 5rem;
+    color:white;
+    font-size: 6rem;
+    text-align: center;
+    border-radius: .6rem;
+}
+
+.colour-container > .pixel:hover{
+    background-color: rgb(117, 117, 194);
+}
+
