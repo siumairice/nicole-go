@@ -5,8 +5,7 @@ function Pixel(pixelID: string) {
     function handleDivClick(){
         setPixelColour("white");
     }
-
-  
+    
   return <div style={{backgroundColor: pixelColour}}
             className="pixel" id={pixelID} 
             onClick={handleDivClick}>
