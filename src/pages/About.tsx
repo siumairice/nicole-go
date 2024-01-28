@@ -8,10 +8,10 @@ function About() {
       <div id="about-left">
         <div className="header-text">About Me</div>
         <div className="card" id="list-card">
-          <ul>
-            <li>some text here</li>
-            <li>some text here</li>
-            <li>some text here</li>
+          <ul style={{margin:0}}>
+            <li>this is a description</li>
+            <li>a description left empty</li>
+            <li>would you like to contribute?</li>
           </ul>
         </div>
       </div>

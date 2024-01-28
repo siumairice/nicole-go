@@ -16,14 +16,15 @@
 }
 
 #list-card{
-    padding:0rem 3rem;
+    min-height:40vh;
+    padding:3vh 3vw;
     min-width:35vw;
 }
 
 li{
     font-family: 'retganon';
     color:aliceblue;
-    font-size: 4rem;
+    font-size: 5vw;
 }
 
 .colour-container{

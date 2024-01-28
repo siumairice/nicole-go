@@ -13,7 +13,7 @@
 #root {
   font-family: 'Arcade Gamer';
   margin: 0 auto;
-  font-size: 8rem;
+  font-size: 10vw;
 }
 
 body{
@@ -32,6 +32,8 @@ body{
   width:100vw;
   left:0;
   height:6vh;
+  min-height: 48px;
+  z-index: 10000;
 }
 
 .nico-sprite{
